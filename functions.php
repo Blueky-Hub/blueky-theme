@@ -24,8 +24,8 @@ add_action('init', 'my_theme_tgmpa_register_languages');
 function my_theme_register_required_plugins() {
     $plugins = array(
         array(
-            'name'      => '1. Forminator Forms',
-            'slug'      => 'forminator',
+            'name'      => '1. Fluent Forms',
+            'slug'      => 'fluentform',
             'required'  => false,
         ),
         array(
