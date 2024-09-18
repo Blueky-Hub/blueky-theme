@@ -29,7 +29,7 @@ function my_theme_register_required_plugins() {
             'required'  => false,
         ),
         array(
-            'name'      => '2. All-in-One WP Backup',
+            'name'      => '2. All-in-One WP Migration',
             'slug'      => 'all-in-one-wp-migration',
             'required'  => false,
         ),
@@ -59,8 +59,8 @@ function my_theme_register_required_plugins() {
             'required'  => false,
         ),
         array(
-            'name'      => '8. Defender Security',
-            'slug'      => 'defender-security',
+            'name'      => '8. Solid Security',
+            'slug'      => 'better-wp-security',
             'required'  => false,
         ),
     );
@@ -77,8 +77,8 @@ function my_theme_register_required_plugins() {
         'is_automatic' => true,
 		'message'      => '',
 		'strings'      => array(
-			'page_title'   => __( 'Cài đặt các plugin cần thiết cho Blueky Child Theme', 'theme-slug' ),
-			'menu_title'   => __( 'Cài đặt các plugin', 'theme-slug' ),
+			'page_title'   => __( 'Giao diện Blueky Theme đề xuất cài đặt các plugin tốt nhất', 'theme-slug' ),
+			'menu_title'   => __( 'Bắt đầu cài đặt bộ Plugin đề xuất', 'theme-slug' ),
 			'dismiss'  => __( 'Tắt thông báo', 'tgmpa' ),
 			// 'notice_can_install_recommended'  => _n_noop(
             //     'Giao diện Blueky Child yêu cầu cài đặt plugin sau: %1$s.',
