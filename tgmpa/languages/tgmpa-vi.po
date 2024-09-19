@@ -52,14 +52,14 @@ msgstr "Có lỗi ở plugin API."
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] "Giao diện này yêu cầu cần cài đặt những plugin sau: %1$s."
+msgstr[0] "Blueky Theme đề xuất: %1$s."
 
 #. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:349
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] "Giao diện Blueky Child yêu cầu cài đặt plugin sau: %1$s."
+msgstr[0] "Blueky Theme đề xuất: %1$s."
 
 #. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:355
