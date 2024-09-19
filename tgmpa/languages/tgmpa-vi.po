@@ -93,7 +93,7 @@ msgstr[0] "Plugin cần có sau đây hiện tại đang Chưa Kích Hoạt: %1$
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] "Plugin đề nghị sau đây hiện tại đang chưa kích hoạt: %1$s."
+msgstr[0] "Plugin đề xuất sau đây hiện tại đang chưa kích hoạt: %1$s."
 
 #: class-tgm-plugin-activation.php:378
 msgid "Begin installing plugin"
@@ -219,14 +219,14 @@ msgstr "Bắt buộc"
 
 #: class-tgm-plugin-activation.php:2369
 msgid "Recommended"
-msgstr "Yêu cầu"
+msgstr "Đề xuất"
 
 #: class-tgm-plugin-activation.php:2385
 msgid "WordPress Repository"
-msgstr "Thư mục Plugin WordPress"
+msgstr "Kho Plugin WordPress"
 
 msgid "repo"
-msgstr "Thư mục Plugin"
+msgstr "Kho Plugin"
 
 #: class-tgm-plugin-activation.php:2388
 msgid "External Source"

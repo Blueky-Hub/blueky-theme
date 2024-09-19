@@ -34,32 +34,27 @@ function my_theme_register_required_plugins() {
             'required'  => false,
         ),
         array(
-            'name'      => '3. Admin and Site Enhancements (ASE)',
+            'name'      => '3. Tối ưu quản trị và trang web (ASE)',
             'slug'      => 'admin-site-enhancements',
             'required'  => false,
         ),
         array(
-            'name'      => '4. LiteSpeed Cache',
-            'slug'      => 'litespeed-cache',
-            'required'  => false,
-        ),
-        array(
-            'name'      => '5. Independent Analytics',
+            'name'      => '4. Independent Analytics',
             'slug'      => 'independent-analytics',
             'required'  => false,
         ),
         array(
-            'name'      => '6. Google Site Kit',
+            'name'      => '5. Google Site Kit',
             'slug'      => 'google-site-kit',
             'required'  => false,
         ),
         array(
-            'name'      => '7. Slim SEO',
+            'name'      => '6. Slim SEO',
             'slug'      => 'slim-seo',
             'required'  => false,
         ),
         array(
-            'name'      => '8. Solid Security',
+            'name'      => '7. Solid Security',
             'slug'      => 'better-wp-security',
             'required'  => false,
         ),
@@ -78,7 +73,7 @@ function my_theme_register_required_plugins() {
 		'message'      => '',
 		'strings'      => array(
 			'page_title'   => __( 'Giao diện Blueky Theme đề xuất cài đặt các plugin tốt nhất', 'theme-slug' ),
-			'menu_title'   => __( 'Bắt đầu cài đặt bộ Plugin đề xuất', 'theme-slug' ),
+			'menu_title'   => __( 'Cài Plugin đề xuất', 'theme-slug' ),
 			'dismiss'  => __( 'Tắt thông báo', 'tgmpa' ),
 			// 'notice_can_install_recommended'  => _n_noop(
             //     'Giao diện Blueky Child yêu cầu cài đặt plugin sau: %1$s.',
