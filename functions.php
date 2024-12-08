@@ -39,23 +39,13 @@ function my_theme_register_required_plugins() {
             'required'  => false,
         ),
         array(
-            'name'      => '4. Independent Analytics',
-            'slug'      => 'independent-analytics',
-            'required'  => false,
-        ),
-        array(
-            'name'      => '5. Google Site Kit',
-            'slug'      => 'google-site-kit',
-            'required'  => false,
-        ),
-        array(
-            'name'      => '6. Slim SEO',
+            'name'      => '4. Slim SEO',
             'slug'      => 'slim-seo',
             'required'  => false,
         ),
-        array(
-            'name'      => '7. Solid Security',
-            'slug'      => 'better-wp-security',
+	array(
+            'name'      => '5. Google Site Kit',
+            'slug'      => 'google-site-kit',
             'required'  => false,
         ),
     );
