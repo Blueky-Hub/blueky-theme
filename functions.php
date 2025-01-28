@@ -24,27 +24,32 @@ add_action('init', 'my_theme_tgmpa_register_languages');
 function my_theme_register_required_plugins() {
     $plugins = array(
         array(
-            'name'      => '1. Fluent Forms',
+            'name'      => '1. Blockera',
+            'slug'      => 'blockera',
+            'required'  => false,
+        ),
+        array(
+            'name'      => '2. Fluent Forms',
             'slug'      => 'fluentform',
             'required'  => false,
         ),
         array(
-            'name'      => '2. All-in-One WP Migration',
+            'name'      => '3. All-in-One WP Migration',
             'slug'      => 'all-in-one-wp-migration',
             'required'  => false,
         ),
         array(
-            'name'      => '3. Tối ưu quản trị và trang web (ASE)',
+            'name'      => '4. Tối ưu quản trị và trang web (ASE)',
             'slug'      => 'admin-site-enhancements',
             'required'  => false,
         ),
         array(
-            'name'      => '4. Slim SEO',
+            'name'      => '5. Slim SEO',
             'slug'      => 'slim-seo',
             'required'  => false,
         ),
 	array(
-            'name'      => '5. Google Site Kit',
+            'name'      => '6. Google Site Kit',
             'slug'      => 'google-site-kit',
             'required'  => false,
         ),
